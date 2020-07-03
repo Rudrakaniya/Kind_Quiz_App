@@ -1,3 +1,104 @@
 <resources>
     <string name="app_name">Kind Quiz App</string>
+    <string name="mMainActivityTitle">Kids Quiz App</string>
+    <string name="mScoreText">Score</string>
+    <string name="mScoreValue">0/13</string>
+    <string name="mSubmitButton">Submit</string>
+    <string name="mNextButton">Next</string>
+    
+    <string name="mQuestion1">Q1. What is the name of our galaxy?</string>
+    <string name="mQuestion1A">Whirlpool Galaxy</string>
+    <string name="mQuestion1B">Milky Way Galaxy</string>
+    <string name="mQuestion1C">Samsung Galaxy</string>
+    <string name="mQuestion1D">Messier 81</string>
+    <string name="mAnswer1">Milky Way Galaxy</string>
+
+    <string name="mQuestion2">Q2. What is the name of the indian space agency?</string>
+    <string name="mQuestion2A">NASA</string>
+    <string name="mQuestion2B">ESRO</string>
+    <string name="mQuestion2C">ISRO</string>
+    <string name="mQuestion2D">ESA</string>
+    <string name="mAnswer2">ISRO</string>
+
+    <string name="mQuestion3">Q3. When did humans first land on the moon?</string>
+    <string name="mQuestion3A">1972</string>
+    <string name="mQuestion3B">1947</string>
+    <string name="mQuestion3C">1987</string>
+    <string name="mQuestion3D">1969</string>
+    <string name="mAnswer3">1969</string>
+
+    <string name="mQuestion4">Q4. How many planets are in the Solar System?</string>
+    <string name="mQuestion4A">7</string>
+    <string name="mQuestion4B">8</string>
+    <string name="mQuestion4C">9</string>
+    <string name="mQuestion4D">11</string>
+    <string name="mAnswer4">8</string>
+
+    <string name="mQuestion5">Q5. How long does it take for the Sun\'s rays to reach earth?</string>
+    <string name="mQuestion5A">499.0 seconds</string>
+    <string name="mQuestion5B">365 seconds</string>
+    <string name="mQuestion5C">1497.0 seconds</string>
+    <string name="mQuestion5D">987.0 seconds</string>
+    <string name="mAnswer5">499.0 seconds</string>
+
+    <string name="mQuestion6">Q6. Roughly how old is planet earth?</string>
+    <string name="mQuestion6A">4.54 million years</string>
+    <string name="mQuestion6B">6000 years</string>
+    <string name="mQuestion6C">4.54 billion years</string>
+    <string name="mQuestion6D">36 billion years</string>
+    <string name="mAnswer6">4.54 billion years</string>
+
+
+    <string name="mQuestion7">Q7. Where\'s the lowest point on land (hint: it\'s below sea level)?</string>
+    <string name="mQuestion7A">Death Valley</string>
+    <string name="mQuestion7B">Antarctica</string>
+    <string name="mQuestion7C">Indian Ocean</string>
+    <string name="mQuestion7D">The Dead Sea</string>
+    <string name="mAnswer7">The Dead Sea</string>
+
+
+    <string name="mQuestion8">Q8. Roughly how often does lightning strike somewhere on Earth?</string>
+    <string name="mQuestion8A">100 times per day</string>
+    <string name="mQuestion8B">100 times per hour</string>
+    <string name="mQuestion8C">100 times per second</string>
+    <string name="mQuestion8D">10 times per day</string>
+    <string name="mAnswer8">100 times per second</string>
+
+
+    <string name="mQuestion9">Q9. What percent of the solar system\'s mass does Sun holds?</string>
+    <string name="mQuestion9A">99.8 percent</string>
+    <string name="mQuestion9B">16.8 percent</string>
+    <string name="mQuestion9C">50.8 percent</string>
+    <string name="mQuestion9D">69.8 percent</string>
+    <string name="mAnswer9">99.8 percent</string>
+
+    <string name="mQuestion10">Q10. The largest volcano in the solar system is called Olympus Mons. Where is it??</string>
+    <string name="mQuestion10A">VENUS</string>
+    <string name="mQuestion10B">MARS</string>
+    <string name="mQuestion10C">MERCURY</string>
+    <string name="mQuestion10D">JUPITER</string>
+    <string name="mAnswer10">MARS</string>
+
+    <string name="mQuestion11">Q11. What is the sun mainly made from?</string>
+    <string name="mQuestion11A">Liquid Lava</string>
+    <string name="mQuestion11B">Rock</string>
+    <string name="mQuestion11C">Gas</string>
+    <string name="mQuestion11D">Molten Iron</string>
+    <string name="mAnswer11">Gas</string>
+
+    <string name="mQuestion12">Q12. Which of these planet is the smallest?</string>
+    <string name="mQuestion12A">Earth</string>
+    <string name="mQuestion12B">Uranus</string>
+    <string name="mQuestion12C">Jupiter</string>
+    <string name="mQuestion12D">Mercury</string>
+    <string name="mAnswer12">Mercury</string>
+
+    <string name="mQuestion13">Q13. Where is the Asteroid Belt?</string>
+    <string name="mQuestion13A">Between Earth and Mars</string>
+    <string name="mQuestion13B">Between Earth and Venus</string>
+    <string name="mQuestion13C">Between Jupiter and Staurn</string>
+    <string name="mQuestion13D">Between Mars and Jupiter</string>
+    <string name="mAnswer13">Between Mars and Jupiter</string>
+
+
 </resources>

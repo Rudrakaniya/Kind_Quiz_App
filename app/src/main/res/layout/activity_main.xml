@@ -27,10 +27,10 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Kids Quiz App "
-                android:layout_marginLeft="24dp"
+                android:text="@string/mMainActivityTitle"
+                android:layout_marginStart="24dp"
                 android:padding="8dp"
-                android:textSize="36dp"
+                android:textSize="36sp"
                 android:textColor="#f0da13"
                 style="@style/TextAppearance.AppCompat.Large"
                 />
@@ -58,8 +58,8 @@
                 android:layout_height="102dp"
                 android:layout_margin="24dp"
                 android:gravity="center"
-                android:textSize="20dp"
-                android:text="Q1. What is the name of our galaxy ?"
+                android:textSize="20sp"
+                android:text="@string/mQuestion1"
                 />
 
         </com.google.android.material.card.MaterialCardView>
@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
         android:orientation="vertical">
 
         <LinearLayout
@@ -82,10 +82,10 @@
         <com.google.android.material.button.MaterialButton
             android:layout_width="350dp"
             android:layout_height="60dp"
-            android:layout_marginRight="16dp"
+            android:layout_marginEnd="16dp"
             app:cornerRadius="16dp"
-            android:textSize="16dp"
-            android:text="Whirlpool Galaxy"/>
+            android:textSize="16sp"
+            android:text="@string/mQuestion1A"/>
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
@@ -103,10 +103,10 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="350dp"
                 android:layout_height="60dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
                 app:cornerRadius="16dp"
-                android:textSize="16dp"
-                android:text="Milky Way Galaxy"/>
+                android:textSize="16sp"
+                android:text="@string/mQuestion1B"/>
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
@@ -123,10 +123,10 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="350dp"
                 android:layout_height="60dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
                 app:cornerRadius="16dp"
-                android:textSize="16dp"
-                android:text="Samsung Galaxy"/>
+                android:textSize="16sp"
+                android:text="@string/mQuestion1C"/>
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
@@ -143,10 +143,10 @@
             <com.google.android.material.button.MaterialButton
                 android:layout_width="350dp"
                 android:layout_height="60dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
                 app:cornerRadius="16dp"
-                android:textSize="16dp"
-                android:text="Messier 81"/>
+                android:textSize="16sp"
+                android:text="@string/mQuestion1D"/>
 
             <com.google.android.material.checkbox.MaterialCheckBox
                 android:layout_width="wrap_content"
@@ -160,7 +160,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="vertical"
         android:gravity="center"
         android:layout_weight="1">
@@ -170,10 +170,10 @@
             android:orientation="horizontal"
             >
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="Score"
-                android:textSize="26dp"
+                android:text="@string/mScoreText"
+                android:textSize="26sp"
                 android:layout_weight="1"
                 android:gravity="center|bottom"
                 />
@@ -183,10 +183,10 @@
             android:layout_height="wrap_content"
             >
             <TextView
-                android:layout_width="wrap_content"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:text="0/13"
-                android:textSize="24dp"
+                android:text="@string/mScoreValue"
+                android:textSize="24sp"
                 android:gravity="center"
                 android:layout_weight="1"
                 />
@@ -206,17 +206,17 @@
             android:layout_weight="1"
             android:textColor="#575647"
             app:cornerRadius="16dp"
-            android:text="Submit"/>
+            android:text="@string/mSubmitButton"/>
 
         <com.google.android.material.button.MaterialButton
             app:cornerRadius="16dp"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:textColor="#575647"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             style="@style/Widget.MaterialComponents.Button.OutlinedButton"
-            android:text="Next"/>
+            android:text="@string/mNextButton"/>
     </LinearLayout>
 
 </LinearLayout>
