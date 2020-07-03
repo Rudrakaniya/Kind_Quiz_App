@@ -54,6 +54,7 @@
 
 
             <TextView
+                android:id="@+id/questionText"
                 android:layout_width="match_parent"
                 android:layout_height="102dp"
                 android:layout_margin="24dp"
@@ -80,17 +81,16 @@
             android:layout_marginBottom="16dp">
 
         <com.google.android.material.button.MaterialButton
-            android:layout_width="350dp"
+            android:id="@+id/answer_A"
+            android:layout_weight="1"
+            android:layout_width="0dp"
             android:layout_height="60dp"
             android:layout_marginEnd="16dp"
             app:cornerRadius="16dp"
             android:textSize="16sp"
             android:text="@string/mQuestion1A"/>
 
-            <com.google.android.material.checkbox.MaterialCheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"/>
+
 
         </LinearLayout>
 
@@ -101,17 +101,16 @@
             android:layout_marginBottom="16dp">
 
             <com.google.android.material.button.MaterialButton
-                android:layout_width="350dp"
+                android:id="@+id/answer_B"
+                android:layout_width="0dp"
+                android:layout_weight="1"
                 android:layout_height="60dp"
                 android:layout_marginEnd="16dp"
                 app:cornerRadius="16dp"
                 android:textSize="16sp"
                 android:text="@string/mQuestion1B"/>
 
-            <com.google.android.material.checkbox.MaterialCheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"/>
+
 
         </LinearLayout>
         <LinearLayout
@@ -121,17 +120,15 @@
             android:layout_marginBottom="16dp">
 
             <com.google.android.material.button.MaterialButton
-                android:layout_width="350dp"
+                android:id="@+id/answer_C"
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_marginEnd="16dp"
                 app:cornerRadius="16dp"
                 android:textSize="16sp"
                 android:text="@string/mQuestion1C"/>
 
-            <com.google.android.material.checkbox.MaterialCheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"/>
 
         </LinearLayout>
         <LinearLayout
@@ -141,17 +138,14 @@
             android:layout_marginBottom="16dp">
 
             <com.google.android.material.button.MaterialButton
-                android:layout_width="350dp"
+                android:id="@+id/answer_D"
+                android:layout_weight="1"
+                android:layout_width="0dp"
                 android:layout_height="60dp"
                 android:layout_marginEnd="16dp"
                 app:cornerRadius="16dp"
                 android:textSize="16sp"
                 android:text="@string/mQuestion1D"/>
-
-            <com.google.android.material.checkbox.MaterialCheckBox
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:gravity="center"/>
 
         </LinearLayout>
 
@@ -183,6 +177,7 @@
             android:layout_height="wrap_content"
             >
             <TextView
+                android:id="@+id/mScoreValue"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="@string/mScoreValue"
@@ -201,6 +196,7 @@
         >
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/submitButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
@@ -209,6 +205,7 @@
             android:text="@string/mSubmitButton"/>
 
         <com.google.android.material.button.MaterialButton
+            android:id="@+id/nextButton"
             app:cornerRadius="16dp"
             android:layout_marginStart="8dp"
             android:textColor="#575647"
