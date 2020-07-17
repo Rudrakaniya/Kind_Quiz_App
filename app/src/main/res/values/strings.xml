@@ -5,7 +5,10 @@
     <string name="mScoreValue">0/13</string>
     <string name="mSubmitButton">Submit</string>
     <string name="mNextButton">Next</string>
-    
+
+    <string name="correct_toast">You got it!!</string>
+    <string name="incorrect_toast">Wrong Answer!!</string>
+
     <string name="mQuestion1">Q1. What is the name of our galaxy?</string>
     <string name="mQuestion1A">Whirlpool Galaxy</string>
     <string name="mQuestion1B">Milky Way Galaxy</string>
@@ -36,7 +39,7 @@
 
     <string name="mQuestion5">Q5. How long does it take for the Sun\'s rays to reach earth?</string>
     <string name="mQuestion5A">499.0 seconds</string>
-    <string name="mQuestion5B">365 seconds</string>
+    <string name="mQuestion5B">365.0 seconds</string>
     <string name="mQuestion5C">1497.0 seconds</string>
     <string name="mQuestion5D">987.0 seconds</string>
     <string name="mAnswer5">499.0 seconds</string>
