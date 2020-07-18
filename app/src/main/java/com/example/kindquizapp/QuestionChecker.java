@@ -3,29 +3,65 @@ package com.example.kindquizapp;
 public class QuestionChecker {
     private int mQuestionID;
     private int mAnswer;
+    private int mOption1;
+    private int mOption2;
+    private int mOption3;
+    private int mOption4;
 
-    public QuestionChecker(int questionResourceID, int correctAnswer){
-        mQuestionID = questionResourceID;
-        mAnswer = correctAnswer;
-
-        // I am typing this text from my new keyboard, which i have just installed in my new laptop table
-        // I am feeling good vibes by typing from my this new keyboard.
-
+    public QuestionChecker(int questionID, int answer, int option1, int option2, int option3, int option4) {
+        mQuestionID = questionID;
+        mAnswer = answer;
+        mOption1 = option1;
+        mOption2 = option2;
+        mOption3 = option3;
+        mOption4 = option4;
     }
 
-    public int getQuestionID(){
+    public int getQuestionID() {
         return mQuestionID;
     }
 
-    public void setQuestionID(int questionID){
+    public void setQuestionID(int questionID) {
         mQuestionID = questionID;
     }
 
-    public int isAnswer() {
+    public int getAnswer() {
         return mAnswer;
     }
 
-    public void getQuestionID(int answer){
+    public void setAnswer(int answer) {
         mAnswer = answer;
+    }
+
+    public int getOption1() {
+        return mOption1;
+    }
+
+    public void setOption1(int option1) {
+        mOption1 = option1;
+    }
+
+    public int getOption2() {
+        return mOption2;
+    }
+
+    public void setOption2(int option2) {
+        mOption2 = option2;
+    }
+
+    public int getOption3() {
+        return mOption3;
+    }
+
+    public void setOption3(int option3) {
+        mOption3 = option3;
+    }
+
+    public int getOption4() {
+        return mOption4;
+    }
+
+    public void setOption4(int option4) {
+        mOption4 = option4;
     }
 }
