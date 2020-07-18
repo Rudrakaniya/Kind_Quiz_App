@@ -1,5 +1,6 @@
 package com.example.kindquizapp;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.core.content.ContextCompat;
 
@@ -57,6 +58,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         // For selecting option buttons
         mAnswerA = findViewById(R.id.answer_A);
@@ -159,6 +161,14 @@ public class MainActivity extends AppCompatActivity {
                 setButtonDisable();
             }
         });
+    }
+
+
+
+    @Override
+    protected void onRestoreInstanceState(@NonNull Bundle savedInstanceState) {
+        super.onRestoreInstanceState(savedInstanceState);
+        score = savedInstanceState.getInt("score");
     }
 
     private void setBackgroundToButtons(char option) {
